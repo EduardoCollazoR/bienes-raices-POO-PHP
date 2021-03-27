@@ -61,7 +61,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 incluirTemplate('header');
 ?>
 
-<main class="contenedor seccion">
+<main class="contenedor seccion contenido-centrado">
     <h1>Actualizar Propiedad</h1>
 
     <?php foreach ($errores as $error) : ?>
