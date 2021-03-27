@@ -30,6 +30,8 @@
     align-items: center;
 
 
+
+
     @include tablet {
         flex-direction: row;
         align-items: flex-end;
@@ -38,6 +40,7 @@
 }
 
 .navegacion {
+
     visibility: hidden;
     opacity: 0;
     height: 0;
